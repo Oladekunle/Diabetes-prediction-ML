@@ -1,0 +1,9 @@
+#Ignore the conda environment
+# Making the script
+conda/
+
+#Ignoring the trained models
+# Exceeds git file size limit of 100MB
+*.pkl
+*.sav
+rfc_model.pkl
